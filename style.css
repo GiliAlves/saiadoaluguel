@@ -1,7 +1,14 @@
-body,h1,h2,h3,h4,h5,h6 { 
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Open Sans";
 }
-body, html {
+body,
+html {
   height: 100%;
   color: #777;
   line-height: 1.8;
@@ -9,10 +16,6 @@ body, html {
 
 a {
   text-decoration: none;
-}
-
-.banner-font {
-  font-family: 'ZCOOL XiaoWei', serif;
 }
 
 .button-whatsapp {
@@ -40,46 +43,44 @@ a {
 
 @keyframes pulse {
   0% {
-      transform: scale(0.95);
-      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
   }
 
   70% {
-      transform: scale(1);
-      box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
   }
 
   100% {
-      transform: scale(0.95);
-      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
   }
 }
 
 .font-copy {
-  font-family: 'Dancing Script', cursive;
   text-decoration: none;
 }
-/* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3 {
+
+.bgimg-1,
+.bgimg-2,
+.bgimg-3 {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url('./assets/img/1.jpeg');
+  background-image: url("./assets/img/1.jpeg");
   min-height: 100%;
 }
 
-/* Second image (Portfolio) */
 .bgimg-2 {
   background-image: url("./assets/img/1.jpeg");
   min-height: 400px;
 }
 
-/* Third image (Contact) */
 .bgimg-3 {
   background-image: url("./assets/img/13.jpeg");
   min-height: 400px;
@@ -88,17 +89,21 @@ a {
 .banner {
   white-space: nowrap;
   color: white;
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(0, 0, 0, 0.7);
   padding: 50px;
 }
 
 .background {
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0, 0, 0, 0.3);
   background-blend-mode: multiply;
 }
 
-.w3-wide {letter-spacing: 10px;}
-.w3-hover-opacity {cursor: pointer;}
+.w3-wide {
+  letter-spacing: 10px;
+}
+.w3-hover-opacity {
+  cursor: pointer;
+}
 
 .banner-text {
   font-size: 50px !important;
@@ -113,7 +118,6 @@ a {
   background-color: #6f5544 !important;
 }
 
-
 .w3-third {
   font-size: 24px;
 }
@@ -122,9 +126,28 @@ a {
   padding: 40px 0 !important;
 }
 
-/* Turn off parallax scrolling for tablets and phones */
+#gmap_canvas {
+  width: 100%;
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 500px;
+  width: 100%;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 100%;
+}
+
 @media only screen and (max-device-width: 1600px) {
-  .bgimg-1, .bgimg-2, .bgimg-3 {
+  .bgimg-1,
+  .bgimg-2,
+  .bgimg-3 {
     background-attachment: scroll;
     min-height: 400px;
   }
