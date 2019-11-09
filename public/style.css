@@ -1612,7 +1612,7 @@ h6 {
 body,
 html {
   height: 100%;
-  color: #777;
+  color: #000000;
   line-height: 1.8;
 }
 
@@ -1628,12 +1628,12 @@ a {
   position: fixed;
   right: 20px;
   bottom: 20px;
-  border: 1px solid #4dc247;
+  border: 1px solid #85CF80;
   border-radius: 50px;
   width: 222px;
   line-height: 16px;
   height: 48px;
-  background-color: #4dc247;
+  background-color:#85CF80;
   color: #fff;
   display: inline-flex;
   align-items: center;
