@@ -1337,7 +1337,7 @@ a {
 .site-dark-gray,
 .site-hover-dark-gray:hover {
   color: #fff !important;
-  background-color: #616161 !important;
+  background-color: #00467f !important;
 }
 .site-pale-red,
 .site-hover-pale-red:hover {
@@ -1581,7 +1581,7 @@ a {
 .site-hover-border-dark-grey:hover,
 .site-border-dark-gray,
 .site-hover-border-dark-gray:hover {
-  border-color: #616161 !important;
+  border-color: #00467f !important;
 }
 .site-border-pale-red,
 .site-hover-border-pale-red:hover {
