@@ -1621,19 +1621,19 @@ a {
 }
 
 .fa-whatsapp {
-  color: #34af23
+  color: #34af23;
 }
 
 .button-whatsapp {
   position: fixed;
   right: 20px;
   bottom: 20px;
-  border: 1px solid #85CF80;
+  border: 1px solid #85cf80;
   border-radius: 50px;
   width: 222px;
   line-height: 16px;
   height: 48px;
-  background-color:#85CF80;
+  background-color: #85cf80;
   color: #fff;
   display: inline-flex;
   align-items: center;
@@ -1644,6 +1644,14 @@ a {
   box-shadow: 0 0 0 0 rgba(77, 194, 71, 0.1);
   transform: scale(1);
   animation: pulse 2s infinite;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.txt-end {
+  text-align: end;
 }
 
 .pulse:hover {
@@ -1686,8 +1694,8 @@ a {
   text-decoration: none;
 }
 
-.bgimg-1,
-.bgimg-2,
+.banner-principal,
+.bgimg-vilaema,
 .bgimg-3 {
   background-attachment: fixed;
   background-position: center;
@@ -1695,13 +1703,13 @@ a {
   background-size: cover;
 }
 
-.bgimg-1 {
-  background-image: url("./assets/img/1.jpg");
+.banner-principal {
+  background-image: url("./assets/images/imagem0.jpg");
   min-height: 100%;
 }
 
-.bgimg-2 {
-  background-image: url("./assets/img/1.jpg");
+.bgimg-vilaema {
+  background-image: url("./assets/images/vila-ema/1.png");
   min-height: 400px;
 }
 
@@ -1824,11 +1832,11 @@ a {
     height: 60%;
   }
 
-  .minhacasa img{
+  .minhacasa img {
     width: 112px !important;
   }
 
-  .minhacasa h2{
+  .minhacasa h2 {
     font-size: 22px;
     margin: 0;
     font-weight: bold;
@@ -1867,7 +1875,7 @@ a {
 
 #popup .camada_transparente {
   background: #000000;
-  opacity: 0.70;
+  opacity: 0.7;
   filter: alpha(opacity=70);
   width: 100%;
   height: 100%;
@@ -1896,4 +1904,185 @@ a {
 
 #myNavbar a:hover {
   text-shadow: none;
+}
+
+.row {
+  display: flex;
+  flex-flow: row;
+}
+
+.header a {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  box-shadow: inset 0 2px 3px 0 rgba(255, 255, 255, 0.3), inset 0 -3px 6px 0 rgba(0, 0, 0, 0.2),
+    0 3px 2px 0 rgba(0, 0, 0, 0.2);
+  background: rgb(237, 13, 30);
+  background: linear-gradient(
+    90deg,
+    rgba(237, 13, 30, 1) 8%,
+    rgba(237, 13, 30, 0.7679446778711485) 92%,
+    rgba(237, 13, 30, 0.4542191876750701) 100%
+  );
+}
+
+.header a h2 {
+  align-self: center;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.header a img {
+  height: 6vh;
+  margin: 2vh 1vw 2vh 5vw;
+}
+
+.anuncio-banner {
+  margin: 10vh auto;
+  width: 70vw;
+  height: 55vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(237, 13, 30, .6);
+  border-radius: 10px;
+  padding: 10vh;
+}
+
+.anuncio-banner h1 {
+  font-size: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.anuncio-banner p {
+  font-size: 22px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.red {
+  color: rgb(237, 13, 30);
+}
+
+.red-dark {
+  color: #B42928;
+}
+
+.flex-line {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-center {
+  align-items: center;
+}
+
+.flex-justify-center {
+  justify-content: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.border-right {
+  border-right: 1px solid #000;
+}
+
+
+
+.anuncio-banner .link-button {
+  padding: 10px 60px;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  color: #ffffff;
+  transition: ease-in-out 0.5s;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.anuncio-banner .link-button:hover {
+  background-color: #ffffff;
+  color: rgb(237, 13, 30);
+  transition: ease-in-out 0.5s;
+}
+
+.card-banner {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  overflow-x: auto;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.card-banner::-webkit-scrollbar {
+  display: none;
+}
+
+.cards {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  flex: none;
+  align-items: center;
+}
+
+/* #E30C14 */
+.card {
+  background: rgb(237, 13, 30);
+  background: radial-gradient(
+    circle,
+    rgba(237, 13, 30, 1) 8%,
+    rgba(237, 13, 30, 1) 66%,
+    rgba(237, 13, 30, 0.7679446778711485) 92%,
+    rgba(237, 13, 30, 0.4542191876750701) 100%
+  );
+  width: 120px;
+  height: 100px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 2px solid #E30C14;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: ease-in-out 0.2s;
+}
+
+.card:hover {
+  transition: ease-in-out 0.2s;
+  border-right: none;
+  background-color: #E30C14;
+  border: 2px solid #ffffff;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card h2 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.card img {
+  height: 25px;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.banner-vila-ema {
+  width: 100%;
+}
+
+.txt-uppercase {
+  text-transform: uppercase;
 }
